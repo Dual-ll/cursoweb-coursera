@@ -1,4 +1,22 @@
+* {
+    box-sizing: border-box;
+}
 .long-section {
-    height: 2000px;
+    width: auto;
+    height: 1500px;
     background-color: rgba(34, 34, 34, 0.151);
+    border: black 1px solid;
+    padding: 10px;
+    position: relative;
+    margin-bottom: 10px;
+}
+.secciones {
+    margin: 2px;
+}
+.long-section a{
+    position: absolute;
+    padding: 5px;
+    bottom: 0px;
+    left: 0px;
+    text-decoration: none;
 }
